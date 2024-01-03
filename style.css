@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+    font-size: 60px;
+    font-family: anantason;
+    font-style: italic;
+    display: flex;
+    justify-content:center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+nav li {
+    display: inline;
+    margin: 0 30px;
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+li a:hover{
+    background-color: black;
+    color: #fff;
+}
+
+section {
+    padding: 100px;
+}
+
+section h2 {
+    font-size: 40px;
+    font-style: italic;
+}
+
+section p {
+    font-size: 20px;
+    line-height: 0.5;
+    font-family: Times;
+}
+
+.image1{
+    position:absolute;
+    top: 450px;
+    left: -130px;
+}
+
+.font1{
+    font-style: italic;
+    font-size: 20px;
+}
+
+.move1{
+    display: flex;
+    justify-content: space-between;
+    position:relative    
+}
+
+.show{
+    text-align: center;
+    line-height: 3.5;
+    font-style: italic;
+    font-family: monospace;
+}
+
+.show a:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.font2{
+    font-style: italic;
+    font-size: 20px;
+    line-height: 0.4;
+}
+
+.font3{
+    font-style: italic;
+    font-size: 20px;
+    line-height: 0.4;
+}
+
+.cer1{
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 0.4;
+    color: aliceblue;
+    padding: 50px;
+}
+
+.thank{
+    color: #fff;
+    font-style: italic;
+}
+
+.design{
+    display: flex;
+    justify-content:center;
+    position:relative
+}
+
+.text1{
+    color: #fff;
+    font-style: italic;
+}
+
+.icon1{
+    position: absolute;
+    width: 80px;
+    height: 70px;
+    right: 50px;
+    top: 20px;
+}
+
+.icon2{
+    position: absolute;
+    width: 80px;
+    height: 70px;
+    right: 0px;
+    top: 20px;
+}
+
+.icon1:hover{
+    color: black;
+}
+
+.icon2:hover{
+    color: palevioletred;
+}
+
+.bau{
+    background-color: palevioletred;
+}
+
+.sleep{
+    background-color: #474242;
+    color: #fff;
+}
+
+.wake{
+    background-color: palevioletred;
+}
